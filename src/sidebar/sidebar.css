@@ -1,0 +1,155 @@
+
+.one_nav{
+    /* border: 1px solid #000; */
+    width: 16.8%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo_one{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.block__ellisis{
+    cursor: pointer;
+}
+
+.logo_txt{
+    color: #424242;
+    font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 15.6px;
+  cursor: pointer;
+}
+
+.add_item_ghjFTYUk{
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.add_new_btn{
+    color: #fff !important;
+    outline: 0;
+    border: 0;
+    background: linear-gradient(128.84deg,#0f6cbd 20.46%,#3c45ab 72.3%);
+    font-weight: 500;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px 0 11px;
+    white-space: nowrap;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #000; */
+    border-radius: 20px;
+}
+
+.plus_icon{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.hover_icon__{
+    color: #424242;
+    margin-left: 1em;
+    margin-top: 2em;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 13.9px;
+  letter-spacing: .25px;
+  cursor: pointer;
+  /* border: 1px solid #000; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+/* .main_lnks__{} */
+
+.nav_item{
+    /* border: 1px solid #000; */
+    margin-left: 0.5em;
+    color: #424242;
+    padding: 9px 0px 9px 9px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 13.9px;
+  letter-spacing: .25px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  transition: all .3s ease-in-out;
+}
+
+.nav_item:hover{
+    background-color: buttonface;
+}
+
+.getStorage{
+    border: 1px solid buttonface;
+    border-radius: 6px;
+    padding: 13px;
+    color: #727272;
+    font-size: 11.5px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 1em;
+    margin-right: 1.6em;
+}
+
+.cube{
+    border: 1px solid buttonface;
+    background-color: #fff;
+    text-align: center;
+    color: #0f6cbd;
+    font-size: 13.4px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding: 8px;
+    display: flex;
+    align-items: center;justify-content: center;
+    margin-top: 2em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.progressss__{
+    border: 1px solid buttonface;
+    background: buttonface;
+    margin: 1.3em 1em;
+    /* width: 100%; */
+}
+
+.pin{
+    border: 1px solid #0f6cbd;
+    width: 30px;
+}
+
+.used_space___MGTYUJd{
+    font-size: 11px;
+    margin-left: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #424242;
+}
+
+.lsdan{
+    color: #0f6cbd;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.xyz{
+    margin-bottom: 1.5em;
+}

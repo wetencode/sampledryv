@@ -1,0 +1,50 @@
+
+
+.tileViewport_9ef98d41{
+    height: 190px;
+    min-width: 240px;
+    width: 280px;
+    /* background: #fff; */
+    background-color: #fff;
+
+    border-radius: 6px;
+    display: block;
+    cursor: pointer;
+    padding: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.14), 0 0 2px rgba(0,0,0,.12);
+    border: 0!important;
+}
+
+.devices{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto !important;
+    padding-top: 1em;
+}
+
+.h333{
+    font-family: "Ubuntu Sans", sans-serif;
+    color: #444;
+}
+
+.p1{
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+    margin-top: 0.5em;
+}
+
+.p2{
+    color: #444;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.p1,.p2{
+    padding-left: 1.8em;
+    line-height: 1.6em;
+    
+}

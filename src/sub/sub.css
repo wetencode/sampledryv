@@ -1,0 +1,82 @@
+
+.sub{
+    width: 100vw !important;
+    height: 100vh !important;
+    background-color: #00000050;
+    position: fixed;
+    top: 0 !important;
+    z-index: 999999999999999999;
+    left: 0;
+}
+
+.form_cont{
+    width: 300px;
+    height: 300px;
+    background: #fff;
+
+    width: 450px;
+    height: auto;
+    background: #fff;
+    position: fixed;
+    z-index: 3000;
+    padding: 1rem!important;
+    border-radius: 4px;
+}
+
+.signnn{
+    font-family: "Ubuntu Sans", sans-serif;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+}
+
+.logggg{
+    height: 70px;
+    margin:  0 auto !important;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email{
+    outline: none;
+    /* border: 1px solid #3c45ab; */
+    background: buttonface;
+    padding: 15px 60px 15px 10px;
+    border: 0;
+    font-size: 15px;
+    margin: 10px 1px;
+    transition: all .2s ease;
+}
+
+.email:focus{
+    border: 1px solid #3c45ab;
+}
+
+.subcont{
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.btttnn{
+    cursor: pointer;
+    padding: 15px 110px;
+    outline: 0;
+    border: 1px solid #3c45ab;
+    background-color: #3c45ab;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.errr{
+    color: #ba1100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
