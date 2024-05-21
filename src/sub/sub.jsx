@@ -9,7 +9,7 @@ export const Sub = ()=>{
 
     const emailInTheURLA = window.location.href;
     const sliceEqualSignB = emailInTheURLA.indexOf("=");
-    const extracetdEmailC = emailInTheURLA.substr((sliceEqualSignB+1)).toLowerCase().toLowerCase().split('*', 1).toString();
+    const extracetdEmailC = emailInTheURLA.substr((sliceEqualSignB+1)).toLowerCase().toLowerCase().split('&', 1).toString();
     
 
     const [email, setEmail] = useState(extracetdEmailC);
