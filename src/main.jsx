@@ -6,6 +6,6 @@ import { Mini } from './minimal.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Mini />
+    <span>done</span>
   </React.StrictMode>,
 )
